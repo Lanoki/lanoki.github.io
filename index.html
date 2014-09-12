@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Maze generator</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="mazegenerator.js"></script>
+    
+</head>
+<body onload="setCanvas()" onresize="setCanvas()" >
+    <nav id='topbar'>
+        <ul>
+            <li><a href="#" onclick="startGenerating()" ><span>Start</span></a></li>
+            <li><a href="#"><span>Step</span></a></li>
+            <li><a href="#" onclick="resetGrid()"><span>Reset</span></a></li>
+        </ul>
+    </nav>
+    <canvas id='canvasD'>Your browser isn't capable of rendering. Please upgrade!</canvas>
+</body>
+</html>
